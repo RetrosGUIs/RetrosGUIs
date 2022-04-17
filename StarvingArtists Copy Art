@@ -14,4 +14,3 @@ local Section = Tab:NewSection("Discord Invite")
 local Section = Section:NewButton("Press To Copy Invite To Clipboard", "Please Join :D", function ()
     setclipboard('https://discord.gg/Hfy2KXvu')
 end)
-
