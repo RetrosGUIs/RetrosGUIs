@@ -1,5 +1,69 @@
-_, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
-
-
-,nil,nil;(function() _msec=(function(e,o,l)local H=o["             "];local R=l[e[(-86+0x2f3)]][e["          "]];local C=(0x108/66)/(52+((0x38+-127)+21))local f=((470-(0xa1ee/147))/0x5e)-(0xf4/244)local y=l[e[(0x5200/128)]][e["      ​ ​    "]];local g=(((0x2e68/99)+-0x1e)-89)+(49-0x2f)local J=l[e[(0x20af2/247)]][e["   ​   ​  "]]local d=(0x7c-122)-((132-(6474/0x4e))/0x31)local i=(-0x4c+((13622+(18-0x44))/174))local N=(81-((0x128+(-9894/0x61))-115))local c=((((-0xad52-(-22085+-0x51))/0xf4)+0x16b)/0x88)local O=((0x18240/((378+-0x14)+-0x76))/0xce)local D=(312/(0x6180/((0x660a/74)-193)))local w=(220/(1760/(-37+(189-0x88))))local U=((-28+((98640/0x90)+-0x1b))/0xd2)local _=((((292908+-0x6c)/0xc0)-790)/0xf5)local t=((4756/((574-0x15b)-0x91))-55)local k=((0x26be/(192+(-30-0x30)))/0x1d)local M=((((0xc6+-113)+-103)-0xe)+35)local h=(77+((-0x13+(-3024/0x70))-28))local v=(384/(8256/(8342/(18527/0xbf))))local s=(0x36-((0x3369/(228+-0x79))-73))local u=(39-(-18+(188-(0xa7+-32))))local j=(0x1e4/(((-112+0x1698)-0xb49)/23))local B=((((-55+0x945b)-0x4a1a)/0xf3)-74)local S=(52+(10-(0x32c0/(-0x1b+(0x260-357)))))local V=e[(0x58e+-101)];local Q=l[e[(36080/0xdc)]][e["          "]];local G=l[(function(e)return type(e):sub(1,1)..'\101\116'end)('    ​   ')..'\109\101'..('\116\97'or'     ​  ')..e[(0x9870/72)]];local b=l[e[(0x17d18/(472-0x124))]][e["               ​  "]];local L=(0x14-18)-(0x29-((161+-0x1e)-92))local m=(-0x77+(20086/(249+-0x53)))-(0x22-32)local Y=l[e[(-0x3e+226)]][e["        "]];local n=function(e,l)return e..l end local p=(0x42-62)*(((0x3996/39)+-42)/0x54)local K=l[e["            ​  "]];local a=(121-0x77)*(-0x1f+((147552/(-121+0x7d))/232))local A=(28672/(0x8e+-114))*(((0x3c30/144)-81)-24)local W=(3900/(((34688/0x80)-173)+-0x17))local P=(57+(-0xd1b/(172-0x6f)))*(100/0x32)local x=l[e["        "]]or l[e[(566+-0x18)]][e["        "]];local r=((0x5866+(-187-(-88+0x3)))/88)local e=l[e["          ​​       "]];local J=(function(a)local r,o=3,0x10 local l={j={},v={}}local n=-d local e=o+f while true do l[a:sub(e,(function()e=r+e return e-f end)())]=(function()n=n+d return n end)()if n==(p-d)then n=""o=L break end end local n=#a while e<n+f do l.v[o]=a:sub(e,(function()e=r+e return e-f end)())o=o+d if o%C==L then o=m b(l.j,(Y((l[l.v[m]]*p)+l[l.v[d]])))end end return J(l.j)end)("..:::MoonSec::..    
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
  
+local Window = Library.CreateLib("Script Hub -- By Retro", "BloodTheme")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("StupidShit")
+Section:NewButton("Please Join My Discord", "Press To Copy Invitation to Clipboard", function ()
+    setclipboard('https://discord.gg/Hfy2KXvu')
+end)
+ 
+Section:NewSlider("WalkSpeed", "More Speed", 500, 25, function(s) 
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Section:NewSlider("JumpPower", "Jump Higher", 500, 50, function(s) 
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+ 
+Section:NewKeybind("Activate/Deactivate GUI", "You Can Customize To The Key You Want", Enum.KeyCode.F, function()
+    Library:ToggleUI()
+end)
+ 
+ 
+local Tab = Window:NewTab("Pet SIm X")
+local Section = Tab:NewSection("Press To Execute Script(WAIT 25 SECONDS AFTER CLICKING)")
+Section:NewButton("Key - Press To Copy Key To Clipboard ", "Press To Copy To Clipboard", function ()
+    wait(25)
+    _G.AuthKey = "73FC3036-691F-459D-87FD-3B8C3286996B"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
+end)
+Section:NewButton("PetSimX SCRIPT", "PRESS FOR SCRIPT", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V3/main/Main"))()
+end)
+ 
+ 
+ 
+local Tab = Window:NewTab("JailBreak")
+local Section = Tab:NewSection("Press To Execute Script")
+Section:NewButton("JailBreak Script", "Press For Script", function ()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+end)
+ 
+local Tab = Window:NewTab("Breaking Point")
+local Section = Tab:NewSection("Press To Execute Script")
+Section:NewButton("Breaking Point Script", "Press For Script", function ()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/breaking-point-public/main/main.lua"))()
+end)
+ 
+local Tab = Window:NewTab("Anime Fighters Sim")
+local Section = Tab:NewSection("Press To Execute Script")
+Section:NewButton("Anime Fighters Script", "Press For Script", function ()
+    local Library = loadstring(game.HttpGet(game,"https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))()
+end)
+ 
+local Tab = Window:NewTab("Anime Rifts")
+local Section = Tab:NewSection("Press To Execute Script")
+Section:NewButton("Anime Rifts Script", "Press For Script", function ()
+    local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+ 
+local Tab = Window:NewTab("DaHood")
+local Section = Tab:NewSection("Press To Execute Script")
+Section:NewButton("Da Hood cript", "Press For Script", function ()
+    local Library = loadstring(game:HttpGet('https://pastebin.com/raw/XXAWmifh'))()
+end)
+ 
+local Tab = Window:NewTab("Shindo Life")
+local Section = Tab:NewSection("Press To Execute Script")
+Section:NewButton("Shindo Life Script", "Press For Script", function ()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
+end)
